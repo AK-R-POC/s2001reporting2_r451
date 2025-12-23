@@ -1,5 +1,5 @@
-# reportingEventTemplate2_AK-R-POC
-For study XXXX: reporting event YYYY
+# reportingEvent2, study: STD2001
+For study 2001: reporting event 2 and R version 4.5.1
 1) Create GitHub repository for a new R project as GitHub user(email based)
 - create a non-main branch(e.g. dev branch)
 - apply a rule to main branch which prohibits to push to main directly
