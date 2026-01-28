@@ -4,11 +4,11 @@
     "Repositories": [
       {
         "Name": "CRAN",
-        "URL": "https://aegisrspm.akaws-r-alb.onecloudlabo.com/cran-snapshot-20251030/latest"
+        "URL": "http://akawsappsvr1.internal.onecloudlabo.com:4242/cran-snapshot-20251030/latest"
       },
       {
         "Name": "INHOUSE",
-        "URL": "https://aegisrspm.akaws-r-alb.onecloudlabo.com/in-house-20251216/latest"
+        "URL": "http://akawsappsvr1.internal.onecloudlabo.com:4242/in-house-20251216/latest"
       }
     ]
   },
