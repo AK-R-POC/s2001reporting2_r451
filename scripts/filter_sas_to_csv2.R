@@ -117,7 +117,9 @@ if(!file.exists(out_csv)) {
 
 ### Using Logger: output hash ###
 out_hash <- hash_file(out_csv, "sha256")
-log_info("Output completed", action="in_process", path=out_csv, 
+#log_info("Output completed", action="in_process", path=out_csv, 
+#         duration_ms=elapsed1_ms, sha256=out_hash, format="csv")
+log_info(sprintf("Output completed: path=%s, sha256=%s", out_csv, out_hash), action="in_process", path=out_csv, 
          duration_ms=elapsed1_ms, sha256=out_hash, format="csv")
 #################################
 
